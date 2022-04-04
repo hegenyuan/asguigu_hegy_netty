@@ -19,7 +19,7 @@ public class NioFileChannel03Demo {
 
         FileOutputStream  outputStream =  new FileOutputStream("D:\\IDE_study_workspace\\netty\\3.txt");
         FileChannel fileChannel02 =  outputStream.getChannel();
-
+        System.out.println(fileChannel02);
 
         ByteBuffer  byteBuffer =  ByteBuffer.allocate(512);
         while(true){
